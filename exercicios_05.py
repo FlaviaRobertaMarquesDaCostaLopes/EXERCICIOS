@@ -1,3 +1,5 @@
+from exercicios_04 import calcular_media
+
 def cadastrar_aluno(nome, email, serie, nota01, nota02, nota03):
     alunos = []
 
