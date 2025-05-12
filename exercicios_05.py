@@ -7,7 +7,8 @@ def cadastrar_aluno(nome, email, serie, nota01, nota02, nota03):
         "nome": nome,
         "email": email,
         "serie": serie,
-        "notas": [nota01, nota02, nota03]
+        "notas": [nota01, nota02, nota03],
+        "Media": calcular_media([nota01, nota02, nota03])
     }
 
     alunos.append(aluno)
